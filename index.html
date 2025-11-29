@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binance Blockchain Week 2025 嘉宾集</title>
+    <link rel="preconnect" href="https://images-eur.cvent.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Binance Blockchain Week · Dubai · 2025.12.3-4</p>
+        <h1>164 位全球嘉宾全览</h1>
+        <p class="subtitle">
+          实时搜索、筛选、排序，快速定位你关心的创始人、投资人、开发者与创作者。
+        </p>
+      </div>
+      <div class="hero__stats">
+        <div>
+          <span class="stat__label">嘉宾总数</span>
+          <strong id="stat-total">0</strong>
+        </div>
+        <div>
+          <span class="stat__label">当前展示</span>
+          <strong id="stat-visible">0</strong>
+        </div>
+        <div>
+          <span class="stat__label">覆盖机构</span>
+          <strong id="stat-orgs">0</strong>
+        </div>
+      </div>
+    </header>
+
+    <section class="controls">
+      <label class="field">
+        <span>关键词搜索</span>
+        <input
+          id="search-input"
+          type="search"
+          placeholder="输入姓名 / 职位 / 机构"
+        />
+      </label>
+
+      <label class="field">
+        <span>机构筛选</span>
+        <select id="company-filter">
+          <option value="">全部机构</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>排序方式</span>
+        <select id="sort-select">
+          <option value="sequence">CSV 顺序（默认）</option>
+          <option value="name-asc">姓名 A → Z</option>
+          <option value="name-desc">姓名 Z → A</option>
+          <option value="company-asc">机构 A → Z</option>
+        </select>
+      </label>
+
+      <div class="view-toggle" role="group" aria-label="切换布局">
+        <button class="toggle-btn active" data-view="grid" aria-pressed="true">
+          网格
+        </button>
+        <button class="toggle-btn" data-view="list" aria-pressed="false">
+          列表
+        </button>
+      </div>
+    </section>
+
+    <main>
+      <div id="speaker-grid" class="speaker-grid" aria-live="polite"></div>
+      <p id="empty-state" class="empty-state" hidden>
+        没有匹配的嘉宾，试试调整搜索或筛选条件。
+      </p>
+    </main>
+
+    <div id="speaker-modal" class="modal" aria-hidden="true">
+      <div class="modal__backdrop" data-dismiss="modal"></div>
+      <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal__close" data-dismiss="modal" aria-label="关闭">
+          ✕
+        </button>
+        <div class="modal__body">
+          <!-- 动态填充 -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>
+        数据来源：
+        <a
+          href="https://www.binanceblockchainweek.com/event/f9827cbe-16f8-478a-bc06-f4e8b783ae54/speakers"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Binance Blockchain Week 官方嘉宾页
+        </a>
+      </p>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
+

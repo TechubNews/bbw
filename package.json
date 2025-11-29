@@ -1,0 +1,21 @@
+{
+  "name": "2025.12.3-4-bbw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "data:refresh": "node scrapeSpeakersDetailed.js",
+    "avatars": "node cacheAvatars.js",
+    "csv": "node generateInterviewCsv.js",
+    "prepare:data": "npm run data:refresh && npm run avatars && npm run csv"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.31.0"
+  }
+}
