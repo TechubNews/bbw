@@ -7,11 +7,34 @@ const statTotal = document.getElementById('stat-total');
 const statVisible = document.getElementById('stat-visible');
 const statOrgs = document.getElementById('stat-orgs');
 const toggleButtons = document.querySelectorAll('.toggle-btn');
+const datasetButtons = document.querySelectorAll('.dataset-btn');
 const modal = document.getElementById('speaker-modal');
 const modalBody = modal.querySelector('.modal__body');
 const modalDismissers = modal.querySelectorAll('[data-dismiss="modal"]');
 
-let speakers = [];
+const datasetState = {
+  speakers: [],
+  sponsors: [],
+};
+
+const datasetMaps = {
+  speakers: new Map(),
+  sponsors: new Map(),
+};
+
+const currentEvent = document.body.dataset.event;
+document.querySelectorAll('.event-switch__btn').forEach((btn) => {
+  if (btn.dataset.eventLink === currentEvent) {
+    btn.classList.add('active');
+  }
+});
+
+const speakersCsv =
+  document.body.dataset.speakersCsv || 'interviews.csv';
+const sponsorsCsv =
+  document.body.dataset.sponsorsCsv || 'sponsors.csv';
+
+let activeDataset = 'speakers';
 let activeSpeaker = null;
 
 const getImageSrc = (speaker) =>
@@ -65,15 +88,63 @@ const normalizeLine = (zh, en) => ({
   en: (en || '').trim(),
 });
 
-const fetchSpeakers = async () => {
-  const response = await fetch('interviews.csv');
+const registerCollection = (type, items) => {
+  datasetState[type] = items;
+  datasetMaps[type] = new Map(items.map((item) => [item.sequence, item]));
+};
+
+const getActiveItems = () => datasetState[activeDataset] || [];
+
+const getCompanyLabel = (speaker) =>
+  speaker.company.zh ||
+  speaker.company.en ||
+  speaker.name.zh ||
+  speaker.name.en ||
+  '';
+
+const fetchCollection = async (path, { optional = false } = {}) => {
+  const response = await fetch(path);
   if (!response.ok) {
-    throw new Error('无法获取采访CSV');
+    if (optional) {
+      return [];
+    }
+    throw new Error(`无法获取 ${path}`);
   }
   const csvText = await response.text();
   const rows = parseCsv(csvText).filter((r) => r.length > 1);
   const [header, ...dataRows] = rows;
   const idx = (name) => header.indexOf(name);
+
+  // 动态查找所有采访提纲列（Interview1_ZH, Interview1_EN, Interview2_ZH, ...）
+  const interviewColumns = header
+    .map((col, i) => ({ name: col, index: i }))
+    .filter(({ name }) => /^Interview\d+_(ZH|EN)$/i.test(name))
+    .sort((a, b) => {
+      // 按数字排序：Interview1, Interview2, Interview3...
+      const numA = parseInt(a.name.match(/\d+/)?.[0] || '0');
+      const numB = parseInt(b.name.match(/\d+/)?.[0] || '0');
+      if (numA !== numB) return numA - numB;
+      // 同一数字的，ZH 在前，EN 在后
+      return a.name.endsWith('_ZH') ? -1 : 1;
+    });
+
+  // 按数字分组：{ 1: { zh: '...', en: '...' }, 2: { zh: '...', en: '...' }, ... }
+  const getInterviewItems = (cols) => {
+    const grouped = {};
+    interviewColumns.forEach(({ name, index }) => {
+      const match = name.match(/^Interview(\d+)_(ZH|EN)$/i);
+      if (match) {
+        const num = parseInt(match[1]);
+        const lang = match[2].toLowerCase();
+        if (!grouped[num]) grouped[num] = {};
+        grouped[num][lang] = cols[index] || '';
+      }
+    });
+    // 转换为数组，按数字顺序
+    return Object.keys(grouped)
+      .sort((a, b) => parseInt(a) - parseInt(b))
+      .map((num) => normalizeLine(grouped[num].zh, grouped[num].en));
+  };
 
   return dataRows.map((cols, index) => ({
     sequence: index,
@@ -84,16 +155,7 @@ const fetchSpeakers = async () => {
       cols[idx('Biography_ZH')],
       cols[idx('Biography_EN')]
     ),
-    interview: [
-      normalizeLine(
-        cols[idx('Interview1_ZH')],
-        cols[idx('Interview1_EN')]
-      ),
-      normalizeLine(
-        cols[idx('Interview2_ZH')],
-        cols[idx('Interview2_EN')]
-      ),
-    ],
+    interview: getInterviewItems(cols),
     imageUrl: cols[idx('ImageURL')],
     localImage: cols[idx('LocalImage')],
   }));
@@ -132,11 +194,17 @@ const renderCard = (speaker) => `
   </article>
 `;
 
-const populateCompanyOptions = () => {
+const populateCompanyOptions = (items) => {
+  companyFilter.innerHTML = '';
+  const baseOption = document.createElement('option');
+  baseOption.value = '';
+  baseOption.textContent = '全部机构';
+  companyFilter.appendChild(baseOption);
+
   const companies = Array.from(
     new Set(
-      speakers
-        .map((s) => s.company.zh || s.company.en || '')
+      items
+        .map((s) => getCompanyLabel(s))
         .filter((item) => item.length > 0)
     )
   ).sort((a, b) => a.localeCompare(b, 'zh'));
@@ -168,7 +236,9 @@ const applyFilters = () => {
   const companyValue = companyFilter.value;
   const sortValue = sortSelect.value;
 
-  let result = speakers.filter((speaker) => {
+  const baseItems = getActiveItems();
+
+  let result = baseItems.filter((speaker) => {
     const matchesTerm =
       !term ||
       searchableFields(speaker)
@@ -176,9 +246,7 @@ const applyFilters = () => {
         .some((field) => field.toLowerCase().includes(term));
 
     const matchesCompany =
-      !companyValue ||
-      speaker.company.zh === companyValue ||
-      speaker.company.en === companyValue;
+      !companyValue || getCompanyLabel(speaker) === companyValue;
 
     return matchesTerm && matchesCompany;
   });
@@ -209,6 +277,12 @@ const applyFilters = () => {
   statVisible.textContent = result.length;
   grid.innerHTML = result.map((speaker) => renderCard(speaker)).join('');
   emptyState.hidden = result.length > 0;
+  emptyState.textContent =
+    result.length > 0
+      ? ''
+      : activeDataset === 'speakers'
+        ? '没有匹配的嘉宾，试试调整搜索或筛选条件。'
+        : '没有匹配的参展商 / 赞助商，清空筛选或稍后再试。';
   attachCardHandlers();
 };
 
@@ -285,9 +359,10 @@ const closeModal = () => {
 
 const attachCardHandlers = () => {
   const cards = grid.querySelectorAll('.speaker-card');
+  const map = datasetMaps[activeDataset] || new Map();
   cards.forEach((card) => {
     const sequence = Number(card.dataset.sequence);
-    const speaker = speakers.find((item) => item.sequence === sequence);
+    const speaker = map.get(sequence);
 
     card.addEventListener('click', () => openModal(speaker));
     card.addEventListener('keydown', (event) => {
@@ -309,12 +384,56 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
+const updateStatSummary = () => {
+  const items = getActiveItems();
+  statTotal.textContent = items.length;
+  const companies = new Set(
+    items.map((item) => getCompanyLabel(item)).filter(Boolean)
+  );
+  statOrgs.textContent = companies.size;
+};
+
+const setActiveDataset = (dataset) => {
+  if (!datasetState[dataset]) return;
+  activeDataset = dataset;
+  grid.classList.toggle('sponsor-mode', dataset === 'sponsors');
+  datasetButtons.forEach((btn) => {
+    const isActive = btn.dataset.dataset === dataset;
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-pressed', isActive);
+  });
+  searchInput.value = '';
+  companyFilter.value = '';
+  sortSelect.value = 'sequence';
+  populateCompanyOptions(getActiveItems());
+  updateStatSummary();
+  applyFilters();
+};
+
 const init = async () => {
   try {
-    speakers = await fetchSpeakers();
-    statTotal.textContent = speakers.length;
-    populateCompanyOptions();
-    applyFilters();
+    const [speakerList, sponsorList] = await Promise.all([
+      fetchCollection(speakersCsv),
+      fetchCollection(sponsorsCsv, { optional: true }),
+    ]);
+
+    registerCollection('speakers', speakerList);
+    registerCollection('sponsors', sponsorList);
+
+    datasetButtons.forEach((btn) => {
+      const dataset = btn.dataset.dataset;
+      if (dataset === 'sponsors' && sponsorList.length === 0) {
+        btn.disabled = true;
+        btn.title = '暂未提供参展商 / 赞助商数据';
+      }
+      btn.addEventListener('click', () => {
+        if (btn.dataset.dataset !== activeDataset && !btn.disabled) {
+          setActiveDataset(btn.dataset.dataset);
+        }
+      });
+    });
+
+    setActiveDataset('speakers');
   } catch (error) {
     console.error(error);
     emptyState.hidden = false;

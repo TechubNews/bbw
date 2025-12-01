@@ -43,6 +43,34 @@ a {
   flex: 1 1 320px;
 }
 
+.event-switch {
+  margin-top: 1.25rem;
+  display: inline-flex;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.event-switch__btn {
+  text-decoration: none;
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  color: var(--text-muted);
+  border: none;
+  background: transparent;
+  transition: background 0.2s, color 0.2s;
+}
+
+.event-switch__btn[aria-current='page'],
+.event-switch__btn.active {
+  background: var(--accent);
+  color: #111;
+}
+
 .eyebrow {
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -90,6 +118,47 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 1rem;
   align-items: end;
+}
+
+.dataset-switch {
+  grid-column: span 2;
+}
+
+.dataset-toggle {
+  display: flex;
+  gap: 0.5rem;
+  background: var(--surface);
+  padding: 0.5rem;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+
+.dataset-btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  padding: 0.45rem 0.6rem;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, opacity 0.2s;
+}
+
+.dataset-btn.active {
+  background: var(--accent);
+  color: #111;
+}
+
+.dataset-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dataset-hint {
+  margin: 0.35rem 0 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
 }
 
 .field {
@@ -212,6 +281,14 @@ main {
   background: #0f131a;
 }
 
+.sponsor-mode .speaker-card img {
+  border-radius: 18px;
+  object-fit: contain;
+  background: #fff;
+  padding: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .speaker-card h3 {
   margin: 0;
   text-align: center;
@@ -307,6 +384,9 @@ main {
 @media (max-width: 768px) {
   .controls {
     grid-template-columns: 1fr;
+  }
+  .dataset-switch {
+    grid-column: span 1;
   }
   .view-toggle {
     justify-content: stretch;

@@ -1,0 +1,699 @@
+[
+  {
+    "tier": "TITLE SPONSOR",
+    "items": [
+      {
+        "name": "Celo",
+        "description": "Celo is the blockchain built for the real world.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/d2eefb6bc91c4add8253d5a1140d1f8f.png",
+        "alt": "Celo",
+        "socials": [
+          {
+            "label": "x",
+            "href": "https://x.com/Celo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": "PLATINUM+ SPONSORS",
+    "items": [
+      {
+        "name": "NEXPACE",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/cdf2f04f704b47fab0d6700bf378aef9.png",
+        "alt": "NEXPACE",
+        "socials": []
+      },
+      {
+        "name": "SOLAYER",
+        "description": "Solayer the hardware-accelerated, high performance SVM blockchain powering the vertically integrated modern finance stack.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/d818819abe634aa282a26dbc399f2259.png",
+        "alt": "SOLAYER",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/solayer_labs"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/company/solayer-labs/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": "PLATINUM SPONSORS",
+    "items": [
+      {
+        "name": "ACE",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/dd989a2f1ce44fb1b47ecbda7ba32f84.png",
+        "alt": "ACE",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/fusionistio"
+          }
+        ]
+      },
+      {
+        "name": "Aster",
+        "description": "The next-generation decentralized exchange offering both Perpetual & Spot trading, designed as a one-stop onchain venue for global crypto traders.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/454e0799a9874d59839e0ba28474fab3.png",
+        "alt": "Aster",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/Aster_DEX"
+          }
+        ]
+      },
+      {
+        "name": "Circle",
+        "description": "Circle is building a new internet financial system for stablecoin payments, powered by USDC and EURC, making money movement seamless.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/bcf5d58c6a464eaab6d4b7235be7f867.png",
+        "alt": "Circle",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/circle"
+          }
+        ]
+      },
+      {
+        "name": "Lumia",
+        "description": "The Only Full Cycle RWA Chain.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/ea4d8e3aba49454385c7766c8f60ec80.png",
+        "alt": "Lumia NETWORK",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/buildonlumia"
+          }
+        ]
+      },
+      {
+        "name": "Solana",
+        "description": "The high performance network powering internet capital markets, payments, and crypto applications.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/721f62fa32c247a3a779aa32cece1726.png",
+        "alt": "Solana",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/solana"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": "GOLD+ SPONSORS",
+    "items": [
+      {
+        "name": "AWS",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/ef06f8d2271e43159c5aeeaa9ee44669.jpg",
+        "alt": "AWS",
+        "socials": []
+      },
+      {
+        "name": "Babylon",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/d6c139f0ab0840cf8f595c9ae7ea0147.png",
+        "alt": "Babylon",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/babylonlabs_io"
+          }
+        ]
+      },
+      {
+        "name": "BMW",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/910b64c5cf6c47fcbd85b663823b2896.png",
+        "alt": "BMW",
+        "socials": []
+      },
+      {
+        "name": "First Digital Trust",
+        "description": "The parent company of FD121 Limited, issuer of FDUSD, & First Digital Trust Limited, Asia’s leading qualified custodian & registered trust company.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/33a7f0a6da4443d18ed0434701f9addb.png",
+        "alt": "First Digital Trust",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/FirstDigitalHQ"
+          }
+        ]
+      },
+      {
+        "name": "Google Cloud",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/8af97560c8824e8a870b809790dd27be.png",
+        "alt": "Google Cloud",
+        "socials": []
+      },
+      {
+        "name": "HUMA",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/4849138f4d59401dbec52e90d0ce013d.png",
+        "alt": "HUMA",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/humafinance"
+          }
+        ]
+      },
+      {
+        "name": "MASTERCARD",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/a3e3c15461dc40c09fc4f939659c1f15.png",
+        "alt": "MASTERCARD",
+        "socials": []
+      }
+    ]
+  },
+  {
+    "tier": "GOLD SPONSORS",
+    "items": [
+      {
+        "name": "Aptos",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/b0ae02666cda4dcdb0442d727856ae55.png",
+        "alt": "Aptos",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/Aptos"
+          }
+        ]
+      },
+      {
+        "name": "Chiliz",
+        "description": "The global leader in blockchain solutions for the sports and entertainment industry, pioneering Fan Tokens and Socios.com",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/f50a289b422c49db9a57c16603976814.png",
+        "alt": "Chiliz",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/Chili"
+          }
+        ]
+      },
+      {
+        "name": "DWF Labs",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/c7b0e53db5ca491b984ffda45d77351f.png",
+        "alt": "DWF Labs",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/DWFLabs"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/company/dwf-labs"
+          }
+        ]
+      },
+      {
+        "name": "Heima Network",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2d5f694ab8534782bb8ad2ce216494b4.png",
+        "alt": "HEIMA NETWORK",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/heimaNetwork"
+          }
+        ]
+      },
+      {
+        "name": "Memeland",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/9da632e25f7c483f8309ed6b3f6e4731.png",
+        "alt": "Memeland",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/Memeland"
+          }
+        ]
+      },
+      {
+        "name": "Plume",
+        "description": "The first permissionless, full-stack blockchain built for real-world asset finance (RWAfi) with native DeFi integration.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/57b9e06adc744124b4dd38fa2e8c7fc7.png",
+        "alt": "Plume",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/plumenetwork"
+          }
+        ]
+      },
+      {
+        "name": "TRON DAO",
+        "description": "Moving Trillions, Empowering Billions: The global settlement layer for stablecoin transactions & everyday purchases with proven success.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/bc372d6ddceb4a129d529f991836a0f6.png",
+        "alt": "TRON DAO",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/trondao"
+          }
+        ]
+      },
+      {
+        "name": "WalletConnect",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/7a897e6457d547609cf111ceb6320282.png",
+        "alt": "WalletConnect",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/WalletConnect"
+          },
+          {
+            "label": "in",
+            "href": "https://linkedin.com/company/walletconnect-network"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": "SILVER+ SPONSORS",
+    "items": [
+      {
+        "name": "AltLayer",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/b07e180454074da5bc25601e5487fa3f.png",
+        "alt": "AltLayer",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://twitter.com/alt_layer"
+          }
+        ]
+      },
+      {
+        "name": "BounceBit",
+        "description": "BounceBit is an L1 built for onchain RWA, with Prime delivering dual-yield tokenized Treasuries on institutional, settlement-ready rails secured by BTC and BB.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/3a1e0476d49b4165afeea957a32036f7.png",
+        "alt": "BounceBit",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/bounce_bit"
+          }
+        ]
+      },
+      {
+        "name": "Bubblemaps",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/a8c45746254a4a8c81b29c0c7c0ac92c.png",
+        "alt": "Bubblemaps",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://twitter.com/bubblemaps"
+          }
+        ]
+      },
+      {
+        "name": "Chromia",
+        "description": "Chromia is a Layer-1 network designed for data-intensive decentralized applications.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/c23b6cfc0bf14421bf9be6728a36b0c1.png",
+        "alt": "Chromia",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/chromia"
+          }
+        ]
+      },
+      {
+        "name": "Marlin",
+        "description": "Marlin is a TEE-based computing network for AI.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/11de089164774660a327f2485875ad85.png",
+        "alt": "Marlin",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/MarlinProtocol"
+          }
+        ]
+      },
+      {
+        "name": "YGG",
+        "description": "Ghe go-to publisher for the hottest casual games in Crypto — Connecting studios with the most Degen players and communities.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/908f6f610f3f435094aff11f84d77bd0.png",
+        "alt": "YGG",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/YieldGuild"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": "SILVER SPONSORS",
+    "items": [
+      {
+        "name": "Alchemy Pay",
+        "description": "The payment gateway that seamlessly connects crypto with traditional fiat currencies for businesses, developers, and end users.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/c35b8919f51241dda4c582038a3055da.png",
+        "alt": "Alchemy Pay",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/alchemypay"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/company/alchemypay/"
+          }
+        ]
+      },
+      {
+        "name": "Animoca Brands",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/6cbf0641609c41229034cf975d5823c7.png",
+        "alt": "Animoca Brands",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/animocabrands"
+          }
+        ]
+      },
+      {
+        "name": "Contentos",
+        "description": "Contentos is a Web3 content ecosystem with a Web3 video platform COS.TV and SocialFi product Channel VIP.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/20645c3918654ce98f1d53ee52294223.png",
+        "alt": "Contentos",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/contentosio"
+          },
+          {
+            "label": "fb",
+            "href": "https://www.facebook.com/ContentosOfficial/"
+          }
+        ]
+      },
+      {
+        "name": "Kaia",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/e7967220220b471bb2f4980aaa9a8874.png",
+        "alt": "Kaia",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/KaiaChain"
+          }
+        ]
+      },
+      {
+        "name": "KAVA",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/3dfd70dd2e454ab0942e59f312d66df9.png",
+        "alt": "KAVA",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://twitter.com/KAVA_CHAIN"
+          }
+        ]
+      },
+      {
+        "name": "Manta Network",
+        "description": "Manta Network is the largest modular L2 on Ethereum.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/5f0636ecad004ee4b6c51b919184235f.png",
+        "alt": "Manta Network",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/mantanetwork"
+          }
+        ]
+      },
+      {
+        "name": "Orderly",
+        "description": "The exchange layer for all finance, powering 180+ DEXs across EVM & non-EVM chains, with a unified order book, low-latency execution, cross-chain settlement.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/cb9db316456a4a2192c677a9196915be.png",
+        "alt": "Orderly",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/orderlynetwork"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": "BRONZE SPONSORS",
+    "items": [
+      {
+        "name": "CHEEMS",
+        "description": "Simple as Meme, build #BNB dream. $Cheems memecoin on #BNBCHAIN.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/0bd1d9c7639f434e8aa9eac7b0c7ee27.png",
+        "alt": "CHEEMS",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/lordcheems_bsc?s=21"
+          }
+        ]
+      },
+      {
+        "name": "FLOKI",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/86aaf197d7d64ea38a594cf77b2e5895.png",
+        "alt": "FLOKI",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/FLOKI"
+          }
+        ]
+      },
+      {
+        "name": "Haedal",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/89a348a1f17b45d895e77f501c428899.png",
+        "alt": "Haedal",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://twitter.com/haedalprotocol"
+          }
+        ]
+      },
+      {
+        "name": "One Key",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/d90b5b83815e48f58147641008ac364e.png",
+        "alt": "One Key",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/OneKeyHQ"
+          }
+        ]
+      },
+      {
+        "name": "PEPE",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/78eb3a58ace34f3991aaefa129bdf233.png",
+        "alt": "PEPE",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/pepecoineth"
+          }
+        ]
+      },
+      {
+        "name": "PIXEL",
+        "description": "Known for their popular social farming & open-world adventure game, Pixels is building a broader ecosystem, creating new ways for everyone to play, earn, & connect.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2feaaac3a6d6413e9d8c55253a13497a.png",
+        "alt": "PIXEL",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/pixels_online"
+          }
+        ]
+      },
+      {
+        "name": "StakeStone",
+        "description": "Building Next-Gen Autonomous Neo Banking",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/ca2a448526224f078bfa807b83a22133.png",
+        "alt": "StakeStone",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/stake_stone"
+          }
+        ]
+      },
+      {
+        "name": "Tencent Cloud",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/98bbf98dc51a41fe9e038d341cb0ba58.png",
+        "alt": "Tencent Cloud",
+        "socials": []
+      }
+    ]
+  },
+  {
+    "tier": "BINANCE WALLET ECOSYSTEM",
+    "items": [
+      {
+        "name": "Binance Wallet",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/9c1563b9663b4e328448e36309ca2e1a.png",
+        "alt": "Binance Wallet",
+        "socials": []
+      },
+      {
+        "name": "1inch",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/9560bbffadac4f23bffc191ca8ddbd67.png",
+        "alt": "1inch",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/1inch"
+          }
+        ]
+      },
+      {
+        "name": "FOUR MEME",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2a5aa7c0f74a411d8c3f04688c1fbed8.png",
+        "alt": "FOUR MEME",
+        "socials": []
+      }
+    ]
+  },
+  {
+    "tier": "ECOSYSTEM PARTNERS",
+    "items": [
+      {
+        "name": "CoinMarketCap",
+        "description": "CMC is ‘Home Of Crypto’, the world's #1 source of crypto data, insights & community.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/496d4848809e4a09a4a6fef37fac2770.png",
+        "alt": "CoinMarketCap",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/CoinMarketCap"
+          },
+          {
+            "label": "“ig”",
+            "href": "https://www.instagram.com/coinmarketcap/"
+          },
+          {
+            "label": "fb",
+            "href": "https://www.facebook.com/CoinMarketCap"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/company/coinmarketcap/"
+          }
+        ]
+      },
+      {
+        "name": "Trust Wallet",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2102a78f5cd64d52add819ba35ed93fb.png",
+        "alt": "Trust Wallet",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/trustwallet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": "BNB CHAIN ECOSYSTEM PARTNERS",
+    "items": [
+      {
+        "name": "BNB Chain",
+        "description": "A community-driven blockchain ecosystem with BNB Smart Chain (BSC), opBNB and BNB Greenfield.",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2b2ed50c67754f60a1a44249213ea3c4.png",
+        "alt": "BNB Chain",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/BNBChain"
+          }
+        ]
+      },
+      {
+        "name": "Lista DAO",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2f461005cd3f49739bd86b37132ca5f2.png",
+        "alt": "Lista DAO",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/lista_dao"
+          }
+        ]
+      },
+      {
+        "name": "Pancake Swap",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/ebfe3719cdf1460f86ae7468fdd39fd9.png",
+        "alt": "Pancake Swap",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/PancakeSwap"
+          }
+        ]
+      },
+      {
+        "name": "Super Fortune",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/8eef96c48a06467a8e42ea5267a301d6.png",
+        "alt": "Super Fortune",
+        "socials": []
+      },
+      {
+        "name": "Venus",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/4e5cc5f7254e47aeb14eec378575e3d2.png",
+        "alt": "Venus",
+        "socials": [
+          {
+            "label": "“x”",
+            "href": "https://x.com/VenusProtocol"
+          }
+        ]
+      },
+      {
+        "name": "Zerohash",
+        "description": "",
+        "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/f5dfded3dc784d62b94a4e9d09414a7c.png",
+        "alt": "Zerohash",
+        "socials": []
+      }
+    ]
+  }
+]

@@ -8,7 +8,16 @@
     "data:refresh": "node scrapeSpeakersDetailed.js",
     "avatars": "node cacheAvatars.js",
     "csv": "node generateInterviewCsv.js",
-    "prepare:data": "npm run data:refresh && npm run avatars && npm run csv"
+    "prepare:data": "npm run data:refresh && npm run avatars && npm run csv",
+    "sponsors:raw": "node scrapeSponsors.js",
+    "sponsors:csv": "node generateSponsorsCsv.js",
+    "sponsors:logos": "node downloadSponsorLogos.js",
+    "mena:speakers:raw": "node scrapeMenaSpeakers.js",
+    "mena:speakers:avatars": "node cacheMenaAvatars.js",
+    "mena:speakers:csv": "node generateMenaInterviewCsv.js",
+    "mena:sponsors:raw": "node scrapeMenaSponsors.js",
+    "mena:sponsors:csv": "node generateMenaSponsorsCsv.js",
+    "mena:sponsors:logos": "node downloadMenaSponsorLogos.js"
   },
   "keywords": [],
   "author": "",

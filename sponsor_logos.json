@@ -1,0 +1,277 @@
+[
+  {
+    "name": "Celo",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/d2eefb6bc91c4add8253d5a1140d1f8f.png",
+    "localPath": "avatars/sponsors/celo.png"
+  },
+  {
+    "name": "NEXPACE",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/cdf2f04f704b47fab0d6700bf378aef9.png",
+    "localPath": "avatars/sponsors/nexpace.png"
+  },
+  {
+    "name": "SOLAYER",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/d818819abe634aa282a26dbc399f2259.png",
+    "localPath": "avatars/sponsors/solayer.png"
+  },
+  {
+    "name": "ACE",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/dd989a2f1ce44fb1b47ecbda7ba32f84.png",
+    "localPath": "avatars/sponsors/ace.png"
+  },
+  {
+    "name": "Aster",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/454e0799a9874d59839e0ba28474fab3.png",
+    "localPath": "avatars/sponsors/aster.png"
+  },
+  {
+    "name": "Circle",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/bcf5d58c6a464eaab6d4b7235be7f867.png",
+    "localPath": "avatars/sponsors/circle.png"
+  },
+  {
+    "name": "Lumia",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/ea4d8e3aba49454385c7766c8f60ec80.png",
+    "localPath": "avatars/sponsors/lumia.png"
+  },
+  {
+    "name": "Solana",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/721f62fa32c247a3a779aa32cece1726.png",
+    "localPath": "avatars/sponsors/solana.png"
+  },
+  {
+    "name": "AWS",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/ef06f8d2271e43159c5aeeaa9ee44669.jpg",
+    "localPath": "avatars/sponsors/aws.jpg"
+  },
+  {
+    "name": "Babylon",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/d6c139f0ab0840cf8f595c9ae7ea0147.png",
+    "localPath": "avatars/sponsors/babylon.png"
+  },
+  {
+    "name": "BMW",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/910b64c5cf6c47fcbd85b663823b2896.png",
+    "localPath": "avatars/sponsors/bmw.png"
+  },
+  {
+    "name": "First Digital Trust",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/33a7f0a6da4443d18ed0434701f9addb.png",
+    "localPath": "avatars/sponsors/first-digital-trust.png"
+  },
+  {
+    "name": "Google Cloud",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/8af97560c8824e8a870b809790dd27be.png",
+    "localPath": "avatars/sponsors/google-cloud.png"
+  },
+  {
+    "name": "HUMA",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/4849138f4d59401dbec52e90d0ce013d.png",
+    "localPath": "avatars/sponsors/huma.png"
+  },
+  {
+    "name": "MASTERCARD",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/a3e3c15461dc40c09fc4f939659c1f15.png",
+    "localPath": "avatars/sponsors/mastercard.png"
+  },
+  {
+    "name": "Aptos",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/b0ae02666cda4dcdb0442d727856ae55.png",
+    "localPath": "avatars/sponsors/aptos.png"
+  },
+  {
+    "name": "Chiliz",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/f50a289b422c49db9a57c16603976814.png",
+    "localPath": "avatars/sponsors/chiliz.png"
+  },
+  {
+    "name": "DWF Labs",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/c7b0e53db5ca491b984ffda45d77351f.png",
+    "localPath": "avatars/sponsors/dwf-labs.png"
+  },
+  {
+    "name": "Heima Network",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2d5f694ab8534782bb8ad2ce216494b4.png",
+    "localPath": "avatars/sponsors/heima-network.png"
+  },
+  {
+    "name": "Memeland",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/9da632e25f7c483f8309ed6b3f6e4731.png",
+    "localPath": "avatars/sponsors/memeland.png"
+  },
+  {
+    "name": "Plume",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/57b9e06adc744124b4dd38fa2e8c7fc7.png",
+    "localPath": "avatars/sponsors/plume.png"
+  },
+  {
+    "name": "TRON DAO",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/bc372d6ddceb4a129d529f991836a0f6.png",
+    "localPath": "avatars/sponsors/tron-dao.png"
+  },
+  {
+    "name": "WalletConnect",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/7a897e6457d547609cf111ceb6320282.png",
+    "localPath": "avatars/sponsors/walletconnect.png"
+  },
+  {
+    "name": "AltLayer",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/b07e180454074da5bc25601e5487fa3f.png",
+    "localPath": "avatars/sponsors/altlayer.png"
+  },
+  {
+    "name": "BounceBit",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/3a1e0476d49b4165afeea957a32036f7.png",
+    "localPath": "avatars/sponsors/bouncebit.png"
+  },
+  {
+    "name": "Bubblemaps",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/a8c45746254a4a8c81b29c0c7c0ac92c.png",
+    "localPath": "avatars/sponsors/bubblemaps.png"
+  },
+  {
+    "name": "Chromia",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/c23b6cfc0bf14421bf9be6728a36b0c1.png",
+    "localPath": "avatars/sponsors/chromia.png"
+  },
+  {
+    "name": "Marlin",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/11de089164774660a327f2485875ad85.png",
+    "localPath": "avatars/sponsors/marlin.png"
+  },
+  {
+    "name": "YGG",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/908f6f610f3f435094aff11f84d77bd0.png",
+    "localPath": "avatars/sponsors/ygg.png"
+  },
+  {
+    "name": "Alchemy Pay",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/c35b8919f51241dda4c582038a3055da.png",
+    "localPath": "avatars/sponsors/alchemy-pay.png"
+  },
+  {
+    "name": "Animoca Brands",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/6cbf0641609c41229034cf975d5823c7.png",
+    "localPath": "avatars/sponsors/animoca-brands.png"
+  },
+  {
+    "name": "Contentos",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/20645c3918654ce98f1d53ee52294223.png",
+    "localPath": "avatars/sponsors/contentos.png"
+  },
+  {
+    "name": "Kaia",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/e7967220220b471bb2f4980aaa9a8874.png",
+    "localPath": "avatars/sponsors/kaia.png"
+  },
+  {
+    "name": "KAVA",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/3dfd70dd2e454ab0942e59f312d66df9.png",
+    "localPath": "avatars/sponsors/kava.png"
+  },
+  {
+    "name": "Manta Network",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/5f0636ecad004ee4b6c51b919184235f.png",
+    "localPath": "avatars/sponsors/manta-network.png"
+  },
+  {
+    "name": "Orderly",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/cb9db316456a4a2192c677a9196915be.png",
+    "localPath": "avatars/sponsors/orderly.png"
+  },
+  {
+    "name": "CHEEMS",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/0bd1d9c7639f434e8aa9eac7b0c7ee27.png",
+    "localPath": "avatars/sponsors/cheems.png"
+  },
+  {
+    "name": "FLOKI",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/86aaf197d7d64ea38a594cf77b2e5895.png",
+    "localPath": "avatars/sponsors/floki.png"
+  },
+  {
+    "name": "Haedal",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/89a348a1f17b45d895e77f501c428899.png",
+    "localPath": "avatars/sponsors/haedal.png"
+  },
+  {
+    "name": "One Key",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/d90b5b83815e48f58147641008ac364e.png",
+    "localPath": "avatars/sponsors/one-key.png"
+  },
+  {
+    "name": "PEPE",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/78eb3a58ace34f3991aaefa129bdf233.png",
+    "localPath": "avatars/sponsors/pepe.png"
+  },
+  {
+    "name": "PIXEL",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2feaaac3a6d6413e9d8c55253a13497a.png",
+    "localPath": "avatars/sponsors/pixel.png"
+  },
+  {
+    "name": "StakeStone",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/ca2a448526224f078bfa807b83a22133.png",
+    "localPath": "avatars/sponsors/stakestone.png"
+  },
+  {
+    "name": "Tencent Cloud",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/98bbf98dc51a41fe9e038d341cb0ba58.png",
+    "localPath": "avatars/sponsors/tencent-cloud.png"
+  },
+  {
+    "name": "Binance Wallet",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/9c1563b9663b4e328448e36309ca2e1a.png",
+    "localPath": "avatars/sponsors/binance-wallet.png"
+  },
+  {
+    "name": "1inch",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/9560bbffadac4f23bffc191ca8ddbd67.png",
+    "localPath": "avatars/sponsors/1inch.png"
+  },
+  {
+    "name": "FOUR MEME",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2a5aa7c0f74a411d8c3f04688c1fbed8.png",
+    "localPath": "avatars/sponsors/four-meme.png"
+  },
+  {
+    "name": "CoinMarketCap",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/496d4848809e4a09a4a6fef37fac2770.png",
+    "localPath": "avatars/sponsors/coinmarketcap.png"
+  },
+  {
+    "name": "Trust Wallet",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2102a78f5cd64d52add819ba35ed93fb.png",
+    "localPath": "avatars/sponsors/trust-wallet.png"
+  },
+  {
+    "name": "BNB Chain",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2b2ed50c67754f60a1a44249213ea3c4.png",
+    "localPath": "avatars/sponsors/bnb-chain.png"
+  },
+  {
+    "name": "Lista DAO",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/2f461005cd3f49739bd86b37132ca5f2.png",
+    "localPath": "avatars/sponsors/lista-dao.png"
+  },
+  {
+    "name": "Pancake Swap",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/ebfe3719cdf1460f86ae7468fdd39fd9.png",
+    "localPath": "avatars/sponsors/pancake-swap.png"
+  },
+  {
+    "name": "Super Fortune",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/8eef96c48a06467a8e42ea5267a301d6.png",
+    "localPath": "avatars/sponsors/super-fortune.png"
+  },
+  {
+    "name": "Venus",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/4e5cc5f7254e47aeb14eec378575e3d2.png",
+    "localPath": "avatars/sponsors/venus.png"
+  },
+  {
+    "name": "Zerohash",
+    "logo": "https://custom-eur.cvent.com/09EA8E8DD03F4676A24755BA47394373/pix/f5dfded3dc784d62b94a4e9d09414a7c.png",
+    "localPath": "avatars/sponsors/zerohash.png"
+  }
+]

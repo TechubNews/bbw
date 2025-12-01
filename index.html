@@ -7,14 +7,31 @@
     <link rel="preconnect" href="https://images-eur.cvent.com" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body
+    data-event="bbw"
+    data-speakers-csv="interviews.csv"
+    data-sponsors-csv="sponsors.csv"
+  >
     <header class="hero">
       <div class="hero__content">
         <p class="eyebrow">Binance Blockchain Week · Dubai · 2025.12.3-4</p>
-        <h1>164 位全球嘉宾全览</h1>
+        <h1>嘉宾与参展商全览</h1>
         <p class="subtitle">
-          实时搜索、筛选、排序，快速定位你关心的创始人、投资人、开发者与创作者。
+          实时搜索、筛选、排序，快速定位你关心的演讲嘉宾与核心参展商 / 赞助商。
         </p>
+        <div class="event-switch">
+          <a
+            href="index.html"
+            class="event-switch__btn"
+            aria-current="page"
+            data-event-link="bbw"
+          >
+            Binance Blockchain Week
+          </a>
+          <a href="index_mena.html" class="event-switch__btn" data-event-link="mena">
+            Bitcoin MENA
+          </a>
+        </div>
       </div>
       <div class="hero__stats">
         <div>
@@ -33,6 +50,24 @@
     </header>
 
     <section class="controls">
+      <div class="field dataset-switch">
+        <span>查看对象</span>
+        <div class="dataset-toggle" role="group" aria-label="切换查看对象">
+          <button
+            class="dataset-btn active"
+            data-dataset="speakers"
+            aria-pressed="true"
+          >
+            嘉宾
+          </button>
+          <button class="dataset-btn" data-dataset="sponsors" aria-pressed="false">
+            参展商 / 赞助商
+          </button>
+        </div>
+        <p class="dataset-hint">
+          嘉宾数据来自 interviews.csv，参展商 / 赞助商数据来自 sponsors.csv
+        </p>
+      </div>
       <label class="field">
         <span>关键词搜索</span>
         <input
@@ -96,7 +131,15 @@
           target="_blank"
           rel="noreferrer"
         >
-          Binance Blockchain Week 官方嘉宾页
+          嘉宾列表
+        </a>
+        ·
+        <a
+          href="https://www.binanceblockchainweek.com/event/f9827cbe-16f8-478a-bc06-f4e8b783ae54/sponsors-media"
+          target="_blank"
+          rel="noreferrer"
+        >
+          参展商 / 赞助商
         </a>
       </p>
     </footer>
